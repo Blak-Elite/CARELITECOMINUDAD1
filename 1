@@ -1,0 +1,94 @@
+# Car Parking-Elite Design Guidelines
+
+## Design Approach
+**Reference-Based Approach**: Drawing inspiration from gaming platforms like Steam, Discord, and automotive tuning apps, combined with professional dashboard interfaces. The aesthetic should blend gaming culture with high-performance automotive themes.
+
+## Core Design Elements
+
+### Color Palette
+**Dark Mode Primary** (entire application uses dark theme):
+- Background: 220 15% 8% (deep dark blue-gray)
+- Surface: 220 12% 12% (elevated dark surface)
+- Primary Brand: 210 100% 60% (electric blue - gaming aesthetic)
+- Secondary: 280 60% 65% (purple accent for premium feel)
+- Success: 140 60% 50% (green for optimized configurations)
+- Warning: 35 100% 60% (orange for alerts)
+- Text Primary: 0 0% 95% (near white)
+- Text Secondary: 0 0% 70% (muted gray)
+
+### Typography
+- **Primary**: Inter (Google Fonts) - clean, modern readability
+- **Display**: Orbitron (Google Fonts) - futuristic gaming headers
+- **Monospace**: JetBrains Mono - for data/code displays
+
+### Layout System
+**Tailwind Spacing**: Use units of 2, 4, 6, 8, 12, 16 consistently
+- Micro spacing: p-2, m-2
+- Standard spacing: p-4, gap-4
+- Section spacing: p-8, mt-12
+- Large spacing: p-16
+
+### Component Library
+
+**Navigation**: 
+- Sleek top navigation with Car Parking-Elite logo
+- Subtle neon blue accent on active states
+- Hidden ZONA-ELITE entry point (unobtrusive)
+
+**Forms**:
+- Dark input fields with blue focus states
+- Upload zones with drag-and-drop styling
+- Gaming-inspired button styles with subtle gradients
+
+**Data Displays**:
+- Card-based layout for vehicle configurations
+- Performance meters and gauges for HP/Torque visualization
+- Table format for configuration comparisons
+
+**Vehicle Analysis Panel**:
+- Split-screen layout: image upload left, data inputs right
+- Real-time configuration preview
+- Download button styled as premium gaming asset
+
+**ZONA-ELITE Panel**:
+- High-security aesthetic with darker background
+- Minimal, professional admin interface
+- Restricted access indicators
+
+### Visual Treatments
+
+**Gradients**: 
+- Hero background: Subtle blue-to-purple gradient (210 100% 60% to 280 60% 65%)
+- Button accents: Blue-to-cyan gradient for primary actions
+- Card highlights: Subtle surface-to-primary gradient on hover
+
+**Background Elements**:
+- Subtle automotive grid patterns
+- Low-opacity geometric shapes suggesting car silhouettes
+- Performance-themed iconography (gauges, gears)
+
+### Images
+**Hero Section**: Large automotive background image showing high-performance car dashboard or engine bay with dark overlay for text readability
+**Vehicle Cards**: Car model thumbnails with consistent aspect ratios
+**Upload Zones**: Placeholder graphics showing car screenshots and data examples
+
+### Page Structure
+**Main Interface** (single page application):
+- Hero section with value proposition (1 viewport)
+- Vehicle configuration form (primary focus area)
+- Analysis results display
+- Download section
+
+**ZONA-ELITE** (separate secure interface):
+- Minimal login form
+- Clean admin panel for user management
+- No decorative elements - pure functionality
+
+### Key Design Principles
+1. **Gaming Aesthetic**: Neon accents, dark themes, performance-focused visual language
+2. **Data Clarity**: Clear hierarchy for technical specifications
+3. **Security Visual Cues**: Distinct styling for admin areas
+4. **Mobile Responsive**: Stacked layouts for smaller screens
+5. **Performance Focus**: Visual elements that reinforce speed and optimization themes
+
+The overall feel should be professional yet exciting - like a high-end automotive tuning workshop meets gaming culture.
